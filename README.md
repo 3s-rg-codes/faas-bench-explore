@@ -91,4 +91,24 @@
 - warmstarts ove day
 - general overview in beginning and then experiment based aftyer
 - change points, can be done in statistics but you can also just use your eyes
-- geodis experiments!!!
+
+
+# Outline
+
+## Main observations
+
+- No operational problems on our side 
+- gathered data for 53 days, 12 gb
+- two kinds of deviations from "baseline"
+    - isolated events
+    - general trends / differences in performance when comparing providers
+
+- isolated events
+    - latency spikes beginning of december
+    - weekly patterns, daily patterns (NightShift)
+
+- general trends
+    - new kids have generally better performance caused by modern technologies in virtualization and edge distribution
+    - difference between compiled and interpreted language
+    - difference between architectures
+    
