@@ -92,10 +92,21 @@
 - general overview in beginning and then experiment based aftyer
 - change points, can be done in statistics but you can also just use your eyes
 
+## Problems
+
+- the text is already way too long, how can i shorten it best
+    -  maybe combine archs
+    - combine edge providers (e.g. fastly, CW, DD) into one as they behave similarly
+    - find shorter ways to phrase things, maybe kick tail ratio and / or std and find a better metric to describe this
+
 
 # Outline
 
 ## Main observations
+
+- ???: What to do about differing number of measurements for each configuration-language class
+- this affects the median and falsifies overall latency
+- if we reduce the number of measurements to the minimum amount in one of them, which ones do we eliminate
 
 - No operational problems on our side 
 - gathered data for 53 days, 12 gb
@@ -111,4 +122,33 @@
     - new kids have generally better performance caused by modern technologies in virtualization and edge distribution
     - difference between compiled and interpreted language
     - difference between architectures
-    
+
+
+## Experiments
+
+### Warmstarts
+- add to experiment design that we filtered out all coldstarts
+
+- interesting metrics:
+    - warmstart latency (how high, variant, arch, language, mem)
+    - also how many coldstarts occurred might be interesting, as this has a big impact on cost
+    - how old are functions -> how often are they reused
+    - weekly, daily patterns
+
+### Coldstarts
+- add to experiment design that we filtered out all warmstarts and chose the execution frequency in a way that would maximize coldstarts (e.g. run it less)
+
+- interesting metrics:
+    - coldstart latency (how high, variant, arch, langiuage, mem)
+    - how many coldstarts occur? (very different across providers, is it also different across configs) -> actually more relevant for before
+    - weekly daily patterns
+    - maybe a comparison number to warmstart speed (as in coldstart/warmstart)
+
+### Geodis
+
+- Basically: edge good hyperscaler no good
+- obrservations:
+    - hyperscalers have multimodality in violin plots
+    - CW has shit cape town for some reason
+    - Deno bad behavior for edge provider in comparison (deno has less and less access points)
+    - for hyperscalers correlated latency make sense and advantage of edge is no correlated failures there except for deno who dont have many zones

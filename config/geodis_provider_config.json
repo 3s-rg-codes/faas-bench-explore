@@ -1,0 +1,63 @@
+{
+  "amazon_locations": {
+    "amazon:au:sydney": "Sydney (AU)",
+    "amazon:ca:montreal": "Montreal (CA)",
+    "amazon:cn:hong kong": "Hong Kong (CN)",
+    "amazon:de:frankfurt": "Frankfurt (DE)",
+    "amazon:in:mumbai": "Mumbai (IN)",
+    "amazon:jp:osaka": "Osaka (JP)",
+    "amazon:jp:tokyo": "Tokyo (JP)",
+    "amazon:kr:seoul": "Seoul (KR)",
+    "amazon:sa:cape town": "Cape Town (SA)",
+    "amazon:sg:singapore": "Singapore (SG)",
+    "amazon:se:stockholm": "Stockholm (SE)",
+    "amazon:bh:bahrain": "Bahrain (BH)",
+    "amazon:br:sao paulo": "Sao Paulo (BR)",
+    "amazon:fr:paris": "Paris (FR)",
+    "amazon:gb:london": "London (GB)",
+    "amazon:ie:dublin": "Dublin (IE)",
+    "amazon:it:milan": "Milan (IT)",
+    "amazon:us:ashburn": "Ashburn (US)",
+    "amazon:us:palo alto": "Palo Alto (US)",
+    "amazon:us:portland": "Portland (US)"
+  },
+  "provider_palette": {
+    "oracleARM": "#D55E00",
+    "ociARM": "#D55E00",
+    "oracleX86": "#DE8F05",
+    "ociX86": "#DE8F05",
+    "awsARM": "#0173B2",
+    "awsX86": "#56B4E9",
+    "deno": "#029E73",
+    "google": "#ECE133",
+    "gcf": "#ECE133",
+    "cloudflare": "#CA9161",
+    "cw": "#CA9161",
+    "flyio": "#CC78BC",
+    "fly": "#CC78BC",
+    "fastly": "#FBAFE4"
+  },
+  "provider_aliases": {
+    "ociARM": "oracleARM",
+    "ociX86": "oracleX86",
+    "gcf": "google",
+    "cw": "cloudflare",
+    "fly": "flyio"
+  },
+  "provider_labels": {
+    "oracleARM": "oracleARM",
+    "ociARM": "ociARM",
+    "oracleX86": "oracleX86",
+    "ociX86": "ociX86",
+    "awsARM": "awsARM",
+    "awsX86": "awsX86",
+    "deno": "deno",
+    "google": "google",
+    "gcf": "gcf",
+    "cloudflare": "cloudflare",
+    "cw": "cw",
+    "flyio": "flyio",
+    "fly": "fly",
+    "fastly": "fastly"
+  }
+}

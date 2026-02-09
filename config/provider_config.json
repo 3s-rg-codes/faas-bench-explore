@@ -1,0 +1,24 @@
+{
+  "provider_labels": {
+    "fastly": "FEC",
+    "google": "CRF",
+    "oracleX86": "OCF x86",
+    "oracleARM": "OCF ARM",
+    "awsX86": "Lambda x86",
+    "awsARM": "Lambda ARM",
+    "cloudflare": "CW",
+    "deno": "DD",
+    "flyio": "Fly"
+  },
+  "provider_palette": {
+    "google": "#1f77b4",
+    "awsX86": "#ff7f0e",
+    "awsARM": "#ffbb78",
+    "oracleX86": "#2ca02c",
+    "oracleARM": "#98df8a",
+    "deno": "#d62728",
+    "cloudflare": "#9467bd",
+    "flyio": "#8c564b",
+    "fastly": "#e377c2"
+  }
+}
