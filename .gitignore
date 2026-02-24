@@ -2,3 +2,5 @@ data*.db*
 geodis*.db
 
 figures
+
+func
