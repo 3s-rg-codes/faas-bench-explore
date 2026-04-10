@@ -2,12 +2,13 @@
 
 This repository contains all data analysis conducted for the *"Serverless Secrets"* paper. In addition to the figures presented in the paper, it includes intermediate analysis steps, exploratory visualizations, and supplementary experiments that contributed to the final results.
 
+For experiment setup please refer to https://github.com/3s-rg-codes/faas-bench-explore.
+
 ## Setup
 
 To reproduce the figures:
 
-1. Add the required database(s) to the repository. 
-TODO add where databases can be found
+1. Add the required database(s) to the repository: https://doi.org/10.14279/depositonce-25748
 2. Open the desired notebook(s).
 3. Run the first cell in each notebook to initialize the database connection.
 4. Remaining cells are designed, so they can be executed individually, and no order is required.
