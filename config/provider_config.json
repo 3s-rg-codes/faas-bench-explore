@@ -20,5 +20,16 @@
     "cloudflare": "#9467bd",
     "flyio": "#8c564b",
     "fastly": "#e377c2"
+  },
+  "provider_linestyles": {
+    "google": "solid",
+    "awsX86": "dashed",
+    "awsARM": "dashed",
+    "oracleX86": "dashdot",
+    "oracleARM": "dashdot",
+    "deno": "dotted",
+    "cloudflare": [3, 1, 1, 1],
+    "flyio": [5, 1],
+    "fastly": [1, 1]
   }
 }
