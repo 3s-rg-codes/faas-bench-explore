@@ -1,6 +1,6 @@
-# Serverless Secrets – Data Analysis Repository
+# New Kids – Data Analysis Repository
 
-This repository contains all data analysis conducted for the *"Serverless Secrets"* paper. In addition to the figures presented in the paper, it includes intermediate analysis steps, exploratory visualizations, and supplementary experiments that contributed to the final results.
+This repository contains all data analysis conducted for the *"New Kids"* paper. In addition to the figures presented in the paper, it includes intermediate analysis steps, exploratory visualizations, and supplementary experiments that contributed to the final results.
 
 For experiment setup please refer to https://github.com/3s-rg-codes/faas-bench-explore.
 
@@ -73,3 +73,24 @@ The notebooks are organized by experiment:
 ### 08 – Aggregated Metrics
 - Provides a high-level overview of all platforms.
 - Used to identify inconsistencies or unusual behavior across providers.
+
+# Citation
+
+If you use this data or your research, please cite our paper:
+
+```bib
+@article{schirmer2026newKids,
+    author = {Schirmer, Trever and Wiegand, Aris and di Benedetto, Lucca and Gustafsson, Linus and Carl, Natalie and Pfandzelter, Tobias and Bermbach, David},
+    title = {New Kids: An Architecture and Performance Investigation of Second-Generation Serverless Platforms},
+    year = {2026},
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    issn = {1533-5399},
+    url = {https://doi.org/10.1145/3841482},
+    doi = {10.1145/3841482},
+    note = {Just Accepted},
+    journal = {ACM Trans. Internet Technol.},
+    month = aug,
+    keywords = {Serverless, FaaS, platform architecture, performance comparison}
+}
+```
