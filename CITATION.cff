@@ -21,9 +21,37 @@ date-released: 2026-08-15
 publisher:
   name: Association for Computing Machinery
 journal: "ACM Transactions on Internet Technology"
-preferred-citation: article
 keywords:
   - Serverless
   - FaaS
   - platform architecture
   - performance comparison
+preferred-citation:
+  type: article
+  title: "New Kids: An Architecture and Performance Investigation of Second-Generation Serverless Platforms"
+  authors:
+    - family-names: "Schirmer"
+      given-names: "Trever"
+    - family-names: "Wiegand"
+      given-names: "Aris"
+    - family-names: "di Benedetto"
+      given-names: "Lucca"
+    - family-names: "Gustafsson"
+      given-names: "Linus"
+    - family-names: "Carl"
+      given-names: "Natalie"
+    - family-names: "Pfandzelter"
+      given-names: "Tobias"
+    - family-names: "Bermbach"
+      given-names: "David"
+  doi: "10.1145/3841482"
+  url: "https://doi.org/10.1145/3841482"
+  date-released: 2026-08-15
+  publisher:
+    name: Association for Computing Machinery
+  journal: "ACM Transactions on Internet Technology"
+  keywords:
+    - Serverless
+    - FaaS
+    - platform architecture
+    - performance comparison
