@@ -21,6 +21,7 @@ date-released: 2026-08-15
 publisher:
   name: Association for Computing Machinery
 journal: "ACM Transactions on Internet Technology"
+preferred-citation: article
 keywords:
   - Serverless
   - FaaS
