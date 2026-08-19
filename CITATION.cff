@@ -1,20 +1,20 @@
 cff-version: 1.2.0
 title: "New Kids: An Architecture and Performance Investigation of Second-Generation Serverless Platforms"
 authors:
-  - family-names: Schirmer
-    given-names: Trever
-  - family-names: Wiegand
-    given-names: Aris
+  - family-names: "Schirmer"
+    given-names: "Trever"
+  - family-names: "Wiegand"
+    given-names: "Aris"
   - family-names: "di Benedetto"
-    given-names: Lucca
-  - family-names: Gustafsson
-    given-names: Linus
-  - family-names: Carl
-    given-names: Natalie
-  - family-names: Pfandzelter
-    given-names: Tobias
-  - family-names: Bermbach
-    given-names: David
+    given-names: "Lucca"
+  - family-names: "Gustafsson"
+    given-names: "Linus"
+  - family-names: "Carl"
+    given-names: "Natalie"
+  - family-names: "Pfandzelter"
+    given-names: "Tobias"
+  - family-names: "Bermbach"
+    given-names: "David"
 doi: "10.1145/3841482"
 url: "https://doi.org/10.1145/3841482"
 date-released: 2026-08-15
